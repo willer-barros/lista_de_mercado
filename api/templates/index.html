@@ -1,0 +1,22 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Mercado</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <link rel="icon" href="{% static 'cifrao.avif' %}"><!--insere imagem na aba de pesquisa-->
+</head>
+<body>
+    <div id="app">
+        <h1>Lista de Mercado</h1>
+        <ul id="item-list">
+            <!-- Aqui serão exibidos os itens da lista -->
+        </ul>
+    </div>
+
+    <script src="{% static 'scripts.js' %}"></script>
+</body>
+</html>
